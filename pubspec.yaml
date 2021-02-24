@@ -1,0 +1,24 @@
+name: piano_tiles
+description: A new Flutter project.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  audioplayers: ^0.8.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/background.jpg
+    - assets/a.wav
+    - assets/c.wav
+    - assets/e.wav
+    - assets/f.wav
